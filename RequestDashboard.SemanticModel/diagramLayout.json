@@ -1,0 +1,85 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 235.89595375722547,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 306.1098265895954,
+            "y": 0
+          },
+          "nodeIndex": "DIM_DATE",
+          "nodeLineageTag": "44b71f63-05b7-4188-8d93-efef58d302e4",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Request",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 318.28901734104051,
+            "y": 224.8670520231214
+          },
+          "nodeIndex": "Sheet1",
+          "nodeLineageTag": "ba8e763d-2a27-44ea-8bfd-d3a9086a78c5",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 602.28901734104056,
+            "y": 38.4335260115607
+          },
+          "nodeIndex": "Request%",
+          "nodeLineageTag": "6a9dea14-bbfe-49fb-ad05-4d0e9ef16905",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 886.28901734104056,
+            "y": 88.4335260115607
+          },
+          "nodeIndex": "90%table",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 76.888888888888886,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
