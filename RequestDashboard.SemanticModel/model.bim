@@ -6436,10 +6436,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -6895,7 +6891,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\shakun.vaid\\OneDrive - Infosys Limited\\MSP\\POC Files\\Maintenance data.csv\"),[Delimiter=\",\", Columns=26, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\shakun.vaid\\OneDrive - Infosys Limited\\Desktop\\Maintenance data.csv\"),[Delimiter=\",\", Columns=26, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
                 "    #\"Replaced Value\" = Table.ReplaceValue(Source,\"location\",\"Country\",Replacer.ReplaceText,{\"Column21\"}),",
                 "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Replaced Value\", [PromoteAllScalars=true]),",
                 "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"number\", type text}, {\"short_description\", type text}, {\"category\", type text}, {\"Team\", type text}, {\"opened_at\", type datetime}, {\"active\", type logical}, {\"sys_updated_on\", type date}, {\"reassignment_count\", Int64.Type}, {\"closed_at\", type datetime}, {\"Age\", Int64.Type}, {\"AgeBuckets\", type text}, {\"Duration\", Int64.Type}, {\"Opened_at_Copy\", type date}, {\"Closed_at_Copy\", type date}, {\"Closed At_NonBlank\", type datetime}, {\"Ticket Duration (Excluding Weekends)\", Int64.Type}, {\"caller_id\", type text}, {\"state\", type text}, {\"assigned_to\", type text}, {\"priority\", type text}, {\"Country\", type text}, {\"hold_reason\", type text}, {\"Age_Days\", Int64.Type}, {\"AGEDAY_BUCKET\", type text}, {\"samedaycloser_Col\", type text}, {\"Closed_all\", type text}}),",
@@ -8367,10 +8363,6 @@
         "name": "Request%",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -8845,7 +8837,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\shakun.vaid\\OneDrive - Infosys Limited\\MSP\\POC Files\\Maintenance data.csv\"),[Delimiter=\",\", Columns=26, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\shakun.vaid\\OneDrive - Infosys Limited\\Desktop\\Maintenance data.csv\"),[Delimiter=\",\", Columns=26, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
                 "    #\"Replaced Value\" = Table.ReplaceValue(Source,\"location\",\"Country\",Replacer.ReplaceText,{\"Column21\"}),",
                 "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Replaced Value\", [PromoteAllScalars=true]),",
                 "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"number\", type text}, {\"short_description\", type text}, {\"category\", type text}, {\"Team\", type text}, {\"opened_at\", type datetime}, {\"active\", type logical}, {\"sys_updated_on\", type date}, {\"reassignment_count\", Int64.Type}, {\"closed_at\", type datetime}, {\"Age\", Int64.Type}, {\"AgeBuckets\", type text}, {\"Duration\", Int64.Type}, {\"Opened_at_Copy\", type date}, {\"Closed_at_Copy\", type date}, {\"Closed At_NonBlank\", type datetime}, {\"Ticket Duration (Excluding Weekends)\", Int64.Type}, {\"caller_id\", type text}, {\"state\", type text}, {\"assigned_to\", type text}, {\"priority\", type text}, {\"Country\", type text}, {\"hold_reason\", type text}, {\"Age_Days\", Int64.Type}, {\"AGEDAY_BUCKET\", type text}, {\"samedaycloser_Col\", type text}, {\"Closed_all\", type text}}),",
